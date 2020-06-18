@@ -18,10 +18,7 @@ public class Categoria implements Serializable {
  
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-
 private Long idcategoria;
-
 @Column(length = 45)
 private String nomcat;
 public Long getIdcategoria() {
